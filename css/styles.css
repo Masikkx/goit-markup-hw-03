@@ -77,6 +77,11 @@ p {
 /* ---Header style--- */
 .page-header {
   border-bottom: 1px solid #e7e9fc;
+  width: 1158px;
+  margin: 0 auto;
+}
+.page-nav {
+  align-items: center;
 }
 .page-header .container,
 .page-nav,
@@ -147,7 +152,7 @@ h1 {
   font-size: 56px;
   line-height: 107%;
   letter-spacing: 0.02em;
-  width: 496px;
+  max-width: 496px;
   text-align: center;
   margin: 0 auto;
 }
@@ -163,7 +168,7 @@ h1 {
   box-sizing: border-box;
   border: 0px;
   border-radius: 4px;
-  width: 169px;
+  min-width: 169px;
   height: 56px;
   margin: 48px auto 0 auto;
 }
@@ -175,7 +180,7 @@ h1 {
 
 /* ---ADVANTAGES SECTION--- */
 .advantages {
-  padding: 126px 0;
+  padding: 120px 0;
 }
 .visually-hidden {
   position: absolute;
@@ -206,22 +211,27 @@ h1 {
   background-color: #f4f4fd;
   padding: 120px 0px;
 }
+.our-team-title {
+  margin-bottom: 72px;
+}
 .our-team-list {
   display: flex;
   gap: 24px;
-  margin-top: 72px;
 }
 .our-team-list-title {
   text-align: center;
   margin: 32px 0 8px 0;
 }
 .our-team-list-item {
-  background-color: #ffffff;
+  width: calc((100%-72px) / 4);
+  height: 380px;
+}
+.our-team-list-item-more {
   border-radius: 0 0 4px 4px;
+  padding: 0px 0px 32px 0px;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-  width: calc(100%-72px) / 4;
-  height: 380px;
+  background: #ffffff;
 }
 
 .our-team-list-text {
@@ -265,11 +275,14 @@ h1 {
   height: 112px;
   margin-left: 156px;
 }
+.page-footer .logo {
+  margin-bottom: 16px;
+  display: inline-block;
+}
 .page-footer .logo-span {
   color: #f4f4fd;
 }
 .page-footer p {
   color: #f4f4fd;
-  margin-top: 16px;
   width: 264px;
 }
