@@ -218,6 +218,8 @@ h1 {
   display: flex;
   gap: 24px;
 }
+.our-team-list li {
+}
 .our-team-list-title {
   text-align: center;
   margin: 0px 0 8px 0;
@@ -225,13 +227,14 @@ h1 {
 .our-team-list-item {
   width: calc((100%-72px) / 4);
   height: 380px;
+  border-radius: 0px 0px 4px 4px;
 }
 .our-team-list-item-more {
   padding: 32px 0px;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background: #ffffff;
-  border-radius: 0 0 4px 4px;
+  border-radius: 0px 0px 4px 4px;
 }
 
 .our-team-list-text {
@@ -263,7 +266,7 @@ h1 {
   border-top: none;
 }
 .portfolio-list-item-title {
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 .portfolio-list-item-text {
 }
