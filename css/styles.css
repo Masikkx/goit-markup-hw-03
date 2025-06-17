@@ -236,8 +236,6 @@ h1 {
 .portfolio {
   padding: 120px 0px;
 }
-.container {
-}
 .portfolio-title {
   margin-bottom: 72px;
 }
@@ -259,9 +257,18 @@ h1 {
 }
 
 /* ---FOOTER--- */
+.page-footer {
+  padding: 100px 0px;
+}
+.page-footer .container {
+  height: 112px;
+  margin-left: 156px;
+}
 .page-footer .logo-span {
   color: #f4f4fd;
 }
 .page-footer p {
   color: #f4f4fd;
+  margin-top: 16px;
+  width: 264px;
 }
